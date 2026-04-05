@@ -1,0 +1,14 @@
+El proyecto debe contar con los siguientes componentes principales:
+
+- **Contenedor de alimento:** depósito encargado de almacenar el alimento seco del perro.
+- **Motor (servo motor):** componente encargado de abrir y cerrar la compuerta del contenedor para liberar una porción controlada.
+- **Sensor:** dispositivo que detecta si el plato se encuentra vacío o con poco alimento. Puede utilizarse un sensor ultrasónico para medir la distancia entre el sensor y la superficie del alimento.
+- **Microcontrolador:** unidad encargada de procesar la información recibida por el sensor y enviar la señal de control al motor.
+
+### Funcionamiento esperado
+Se espera que el sistema supervise constantemente el nivel de alimento disponible en el plato del perro.
+
+Cuando el sensor detecte que el plato está vacío o por debajo de un nivel mínimo, enviará una señal al microcontrolador. 
+Posteriormente, el microcontrolador activará el servo motor para abrir la compuerta del contenedor durante un tiempo definido, permitiendo que una porción de alimento caiga al plato.
+
+Una vez servida la comida, el sistema volverá al estado de monitoreo hasta la siguiente detección.
