@@ -68,6 +68,7 @@ El sistema opera en un ciclo continuo con los siguientes estados:
 |---|---|---|
 | Microcontrolador (Arduino Uno / ESP32) | Procesa señales y controla actuadores | 1 |
 | Sensor ultrasónico HC-SR04 | Detecta nivel de alimento en el plato | 1 |
+| Celda de carga + módulo HX711 | Detecta si el plato está presente y mide el peso del alimento | 1 |
 | Servo motor SG90 | Abre/cierra la compuerta del dispensador | 1 |
 | Buzzer pasivo | Emite alerta sonora en caso de fallo | 1 |
 | Fuente de alimentación 5V | Alimenta el circuito | 1 |
