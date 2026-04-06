@@ -60,5 +60,7 @@ El sistema opera en un ciclo continuo con los siguientes estados:
 4. **Verificación**: El sensor confirma que el alimento fue dispensado correctamente.
 5. **Reposo**: El sistema vuelve al estado de espera.
 
+> En caso de fallo (plato no detectado después de 3 intentos), el sistema emite una alerta sonora.
+
 ---
 
