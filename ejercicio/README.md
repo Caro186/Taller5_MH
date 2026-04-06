@@ -1,7 +1,7 @@
 # Sistema Interactivo: Dispensador Automático de Alimento para Perro
 
 ## Estudiantes: 
-Carolina Rodríguez 
+Carolina Rodríguez, 
 Noemí Vargas
 
 ## a. Nombre del sistema
@@ -49,6 +49,16 @@ El sensor detecta si el plato está vacío o con poco alimento.
 ### Función de la salida
 
 El motor gira una compuerta o mecanismo que libera una cantidad definida de alimento seco hacia el plato.
+
+## f. Lógica de funcionamiento
+
+El sistema opera en un ciclo continuo con los siguientes estados:
+
+1. **Espera**: El sensor monitorea el plato cada 10 segundos.
+2. **Detección**: Si el sensor detecta ausencia de alimento, envía señal al microcontrolador.
+3. **Dispensado**: El microcontrolador activa el motor durante 5 segundos para liberar una porción de alimento.
+4. **Verificación**: El sensor confirma que el alimento fue dispensado correctamente.
+5. **Reposo**: El sistema vuelve al estado de espera.
 
 ---
 
