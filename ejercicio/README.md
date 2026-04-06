@@ -62,5 +62,16 @@ El sistema opera en un ciclo continuo con los siguientes estados:
 
 > En caso de fallo (plato no detectado después de 3 intentos), el sistema emite una alerta sonora.
 
+## g. Componentes del sistema
+
+| Componente | Descripción | Cantidad |
+|---|---|---|
+| Microcontrolador (Arduino Uno / ESP32) | Procesa señales y controla actuadores | 1 |
+| Sensor ultrasónico HC-SR04 | Detecta nivel de alimento en el plato | 1 |
+| Servo motor SG90 | Abre/cierra la compuerta del dispensador | 1 |
+| Buzzer pasivo | Emite alerta sonora en caso de fallo | 1 |
+| Fuente de alimentación 5V | Alimenta el circuito | 1 |
+| Contenedor de alimento (recipiente) | Almacena el alimento seco | 1 |
+
 ---
 
