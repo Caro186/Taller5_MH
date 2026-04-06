@@ -74,5 +74,17 @@ El sistema opera en un ciclo continuo con los siguientes estados:
 | Fuente de alimentación 5V | Alimenta el circuito | 1 |
 | Contenedor de alimento (recipiente) | Almacena el alimento seco | 1 |
 
+### Limitaciones actuales
+
+- El sistema solo funciona con alimento seco.
+- Requiere conexión a corriente eléctrica.
+- No distingue entre tipos o tamaños de porciones según el peso del perro.
+
+### Posibles mejoras
+
+- Incorporar **conectividad WiFi** para programar horarios desde el celular.
+- Incluir una **cámara** para monitorear al perro remotamente.
+- Agregar **perfiles por mascota** para ajustar porciones según el tamaño del perro.
+
 ---
 
